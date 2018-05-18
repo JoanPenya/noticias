@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    
+    <channel>
+        <title>TecnoP0rn</title>
+        <link>index.html</link>
+        <description>Técnologia, móviles, gaming y mucha satisfacción</description>
+        <item>
+            <title>Raspberry Pi 3 Model B+, análisis: más potencia y mejor
+                            WiFi para un miniPC que sigue asombrando</title>
+            <link>news1.html</link>
+            <description>Eben Upton nos troleó un poco. Nos dijo que 
+                            no habría Raspberry Pi 4 hasta 2019, y ahí no mintió 
+                            (al menos, hasta donde sabemos), pero lo que se guardó 
+                            fue que andaban preparando una sorpresa: una Raspberry Pi 
+                            3 renovada...</description>
+            <pubDate>Sat, 05 May 2018 12:00:00 EST</pubDate>
+        </item>
+        <item>
+            <title>Han hackeado la Nintendo Switch para transformarla 
+                            en una tablet con Linux completamente funcional</title>
+            <link>news2.html</link>
+            <description>Eben Upton nos troleó un poco. Nos dijo que 
+                            no habría Raspberry Pi 4 hasta 2019, y ahí no mintió 
+                            (al menos, hasta donde sabemos), pero lo que se guardó 
+                            fue que andaban preparando una sorpresa: una Raspberry Pi 
+                            3 renovada...</description>
+            <pubDate>Sat, 05 May 2018 12:00:00 EST</pubDate>
+        </item>
+        <item>
+            <title>>Nintendo Labo más allá de Nintendo Labo</title>
+            <link>news3.html</link>
+            <description>Aunque nada indica que los adultos no puedan sacar partido y 
+                            diversión a Nintendo Labo, el juego creativo de Nintendo 
+                            basado en placas de cartón combinadas con los mandos y 
+                            pantalla de la consola Switch tiene a los niños en su punto 
+                            de mira principal...</description>
+            <pubDate>Sat, 05 May 2018 12:00:00 EST</pubDate>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,215 @@
+#wall{
+    position: fixed;
+    background-size: 100%;
+    background-image: url("../img/vapo.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#title{
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    height: 25%;
+}
+
+#logo{
+    position: absolute;
+    background-image: url("../img/title.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 37.5%;
+    right: 39%;
+    top: 45%;
+}
+
+#logos{
+    position: absolute;
+    background-image: url("../img/title.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 37.5%;
+    right: 39%;
+    top: 40%;
+}
+
+#myCarousel{
+    position: absolute;
+    top: 25%;
+}
+
+#noticia{
+    position: absolute;
+    top: 30%;
+}
+
+#pubD{
+    position: absolute;
+    background-size: 100%;
+    background-image: url("../img/publiD.gif");
+    background-repeat: no-repeat;
+    height: 40%;
+    width: 20%;
+    right: 2.5%;
+    top: 140%;
+   
+}
+
+#pubD1{
+    position: absolute;
+    background-size: 100%;
+    background-image: url("../img/publiD.gif");
+    background-repeat: no-repeat;
+    height: 40%;
+    width: 20%;
+    right: 2.5%;
+    top: 30%;
+   
+}
+
+#PubM{
+    display: none;
+}
+
+#PubT{
+    Display: none;
+}
+
+.container{
+    position: absolute;
+    top: 133%;
+    left: 5%;
+    width: 87%;
+}
+
+.col-sm-4{
+    background-image: url("../img/post.jpg");
+    margin-top: 1.25%;
+    margin-bottom: 1.25%;
+    background-repeat: no-repeat;
+    width: 80%;
+}
+
+.img-thumbnail{
+    margin-top: 2.5%;
+}
+
+
+
+#botonRetro{
+    position: absolute;
+    background-size: 100%;
+    background-image: url("../img/load.jpg");
+    background-repeat: no-repeat;
+    font-size: 300%;
+    bottom: -2%;
+    left: 37.5%;
+} 
+
+#personal{
+    position: absolute;
+    background-color: grey;
+    width: 119.25%;
+    height: 4%;
+    bottom: -7.5%;
+    left: -10%;
+}
+
+#personal1{
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    height: 40%;
+    bottom: -525%;
+}
+
+#personal2{
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    height: 40%;
+    bottom: -200%;
+}
+
+#personal3{
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    height: 40%;
+    bottom: -375%;
+}
+
+#follow{
+    position: absolute;
+    top: 40%;
+    left: 42.5%;
+}
+
+#facebook{
+    position: absolute;
+    background-size: 30%;
+    background-image: url("../img/facebook-symbol_318-37686.jpg");
+    background-repeat: no-repeat;
+    width: 15%;
+    height: 30%;
+    bottom: 5%;
+    left: 40%;
+}
+
+
+#twitter{
+    position: absolute;
+    background-size: 30%;
+    background-image: url("../img/twitter.png");
+    background-repeat: no-repeat;
+    width: 15%;
+    height: 30%;
+    bottom: 5%;
+    left: 50%;
+}
+
+#logof{
+    position: absolute;
+    background-image: url("../img/title.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30%;
+    width: 30%;
+    top: 7%;
+    left: 32.5%;
+}
+
+#noticia{
+    position: absolute;
+    background-image: url("../img/news.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 65%;
+    height: 530%;
+    left: 5%;
+}
+
+#noticia2{
+    position: absolute;
+    background-image: url("../img/news.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 65%;
+    top: 30%;
+    height: 210%;
+    left: 5%;
+}
+
+#noticia3{
+    position: absolute;
+    background-image: url("../img/news.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 65%;
+    top: 30%;
+    height: 375%;
+    left: 5%;
+}
