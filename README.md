@@ -1,1 +1,1 @@
-# noticias
+# noticias (Página de tecnología)
