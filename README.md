@@ -35,4 +35,4 @@ El concepto de está página lo inspire a través en el blog de [XATAKA](https:/
 · Mejorar la función de rss. 
 · Mejorar el blog de mi página. 
 
-[Acceder la versión 1.0] (https://rawgit.com/JoanProg/noticias/v1.0/index.html)
+[Acceder la versión 1.0](https://rawgit.com/JoanProg/noticias/v1.0/index.html)
