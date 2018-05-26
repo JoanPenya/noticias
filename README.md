@@ -24,15 +24,15 @@ El concepto de está página lo inspire a través en el blog de [XATAKA](https:/
 ### Subido: 21/05/2018
 ### CONTENIDO:
 
-· La página esta creada con bootstrap y Jquery. 
-· Tiene 3 noticias (Una de las tres noticias, tiene un vídeo de youtube). 
-· Tiene la carga de scroll (Para generar más noticias).
-· Imagenes están comprimidas. 
+* La página esta creada con bootstrap y Jquery. 
+* Tiene 3 noticias (Una de las tres noticias, tiene un vídeo de youtube). 
+* Tiene la carga de scroll (Para generar más noticias).
+* Imagenes están comprimidas. 
 
 ### ¿QUE HAY QUE MEJORAR?
 
-· Hay que mejorar la versión móvil. 
-· Mejorar la función de rss. 
-· Mejorar el blog de mi página. 
+* Hay que mejorar la versión móvil. 
+* Mejorar la función de rss. 
+* Mejorar el blog de mi página. 
 
 [Acceder la versión 1.0](https://rawgit.com/JoanProg/noticias/v1.0/index.html)
