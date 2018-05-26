@@ -15,6 +15,8 @@ El concepto de está página lo inspire a través en el blog de [XATAKA](https:/
 ![Versión móvil](https://github.com/JoanProg/noticias/blob/master/prototipoMovil.jpg)
 
 
+## VISITAR MI BLOG
+
 [Página de noticias](https://rawgit.com/JoanProg/noticias/master/index.html)
 
 
