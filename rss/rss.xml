@@ -3,12 +3,12 @@
     
     <channel>
         <title>TecnoP0rn</title>
-        <link>https://rawgit.com/JoanProg/noticias/master/index.html</link>
+        <link>index.html</link>
         <description>Técnologia, móviles, gaming y mucha satisfacción</description>
         <item>
             <title>Raspberry Pi 3 Model B+, análisis: más potencia y mejor
                             WiFi para un miniPC que sigue asombrando</title>
-            <link>https://rawgit.com/JoanProg/noticias/master/news1.html</link>
+            <link>news1.html</link>
             <description>Eben Upton nos troleó un poco. Nos dijo que 
                             no habría Raspberry Pi 4 hasta 2019, y ahí no mintió 
                             (al menos, hasta donde sabemos), pero lo que se guardó 
@@ -19,7 +19,7 @@
         <item>
             <title>Han hackeado la Nintendo Switch para transformarla 
                             en una tablet con Linux completamente funcional</title>
-            <link>https://rawgit.com/JoanProg/noticias/master/news2.html</link>
+            <link>news2.html</link>
             <description>Eben Upton nos troleó un poco. Nos dijo que 
                             no habría Raspberry Pi 4 hasta 2019, y ahí no mintió 
                             (al menos, hasta donde sabemos), pero lo que se guardó 
@@ -29,7 +29,7 @@
         </item>
         <item>
             <title>Nintendo Labo más allá de Nintendo Labo</title>
-            <link>https://rawgit.com/JoanProg/noticias/master/news3.html</link>
+            <link>news3.html</link>
             <description>Aunque nada indica que los adultos no puedan sacar partido y 
                             diversión a Nintendo Labo, el juego creativo de Nintendo 
                             basado en placas de cartón combinadas con los mandos y 
