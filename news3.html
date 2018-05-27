@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <title>Nintendo Labo más allá de Nintendo Labo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:site_name" content="TecnoP0rn - Técnologia, móviles, gaming y mucha satisfacción">
+        <meta property="og:url" content="https://www.rawgit.com/">
+        <meta property="og:title" content="TecnoP0rn">
+        <meta property="og:image" content="img/icono.png">
+        <meta property="og:description" content="Página de noticias relacionado con el mundo de la tecnología.">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/d.css">
+        <link rel="stylesheet" media="screen and (min-width: 961px)" href="css/d.css">
+        <link rel="stylesheet" media="screen and (max-width: 960px)" href="css/m.css">
+        <link rel="icon" type="image/png" href="img/icone.png" />
         <link rel="alternate" type="application/rss+xml" title="TecnoP0rn - Técnologia, móviles, gaming y mucha satisfacción" href="rss/rss.xml">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -13,18 +20,66 @@
     <body>
         <div id="wall"></div>
         <div id="pubD1"></div>
-        <div id="PubM"></div>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html"><img src="img/title.png" width="110" height="30"></a>
+        <div id="PubM1"></div>
+
+        <div id="nav-d">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html"><img src="img/title.png" alt="titulo" width="110" height="30"></a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Home
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Móviles</a></li>
+                                <li><a href="#">Tecnología</a></li>
+                                <li><a href="#">Videojuegos</a></li>
+                                <li><a href="#">Informática</a></li>
+                                <li><a href="#">Ciencias</a></li>
+                                <li><a href="#">Otros</a></li>
+                                <li><a href="#">Crítico de la tecnología</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button> 
+                    </form>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            Home
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
+            </nav>
+        </div>
+
+        <div id="nav-m">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" 
+                                data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/title.png" alt="titulo" width="110" height="30"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+
+                        <form class="navbar-form navbar-left" action="/action_page.php">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button> 
+                        </form>
+
+                        <ul class="nav navbar-nav">
                             <li><a href="#">Móviles</a></li>
                             <li><a href="#">Tecnología</a></li>
                             <li><a href="#">Videojuegos</a></li>
@@ -33,20 +88,14 @@
                             <li><a href="#">Otros</a></li>
                             <li><a href="#">Crítico de la tecnología</a></li>
                         </ul>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
-                <form class="navbar-form navbar-left" action="/action_page.php">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Sign Up</a></li>
+                        </ul>
                     </div>
-                    <button type="submit" class="btn btn-default">Submit</button> 
-                </form>
-            </div>
-        </nav>
+                </div>
+            </nav>
+        </div>
 
         <div id="title">
             <a href="index.html">
@@ -57,7 +106,7 @@
         <div id="noticia3">
             <div class="col-sm-12">
                 <div class="caption">
-                    <img src="img/450_1000.jpg" width="600" height="600"
+                    <img src="img/450_1000.jpg" alt="labo" width="600" height="600"
                          class="img-thumbnail">
                     <h1 class="text-left">
                         Nintendo Labo más allá de Nintendo Labo
@@ -83,7 +132,7 @@
                         una semana con Nintendo Labo y niños para contaros cómo es la experiencia de que monten, jueguen y sueñen con algo 
                         tan grande como que el juego y su propia diversión pueden crearla ellos. </p>
                 </div>
-                <img src="img/news3-1.jpg" width="600" height="600"
+                <img src="img/news3-1.jpg" alt="labo" width="600" height="600"
                      class="img-thumbnail">
                 <div class="caption">
                     <br>
@@ -97,7 +146,7 @@
                         que nos traerían Nintendo Labo para probar? - los peques de la casa vuelven a sus naves de Lego 
                         creadas por ellos mismos. Pero la tranquilidad dura poco. El timbre de la puerta vuelve a sonar y tanto A como J 
                         se lanzan a abrir la puerta con la esperanza de que ese nuevo paquete que llega a casa sea por fin Nintendo Labo.</p>
-                    <img src="img/news3-2.jpg" width="600" height="600"
+                    <img src="img/news3-2.jpg" alt="labo" width="600" height="600"
                          class="img-thumbnail">
                     <br>
                     <br>

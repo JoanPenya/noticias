@@ -36,3 +36,12 @@ El concepto de está página lo inspire a través en el blog de [XATAKA](https:/
 * Mejorar el blog de mi página. 
 
 [Acceder la versión 1.0](https://rawgit.com/JoanProg/noticias/v1.0/index.html)
+
+## V2.0
+### Subido: 27/05/2018
+### MEJORAS:
+
+* Versión adaptable para dispositivos móviles. 
+* Imagenes comprimidas.
+
+[Acceder la versión 2.0](https://rawgit.com/JoanProg/noticias/v2.0/index.html)

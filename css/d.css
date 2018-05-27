@@ -14,6 +14,10 @@
     height: 25%;
 }
 
+#nav-m{
+    display:none;
+}
+
 #logo{
     position: absolute;
     background-image: url("../img/title.png");
@@ -39,6 +43,7 @@
 #myCarousel{
     position: absolute;
     top: 25%;
+    left: 0.25%; 
 }
 
 #noticia{
@@ -54,7 +59,7 @@
     height: 40%;
     width: 20%;
     right: 2.5%;
-    top: 140%;
+    top: 142%;
    
 }
 
@@ -80,7 +85,7 @@
 
 .container{
     position: absolute;
-    top: 133%;
+    top: 140%;
     left: 5%;
     width: 87%;
 }
@@ -90,7 +95,7 @@
     margin-top: 1.25%;
     margin-bottom: 1.25%;
     background-repeat: no-repeat;
-    width: 80%;
+    width: 75%;
 }
 
 .img-thumbnail{
@@ -188,7 +193,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     width: 65%;
-    height: 530%;
+    height: 540%;
     left: 5%;
 }
 
