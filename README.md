@@ -45,3 +45,12 @@ El concepto de está página lo inspire a través en el blog de [XATAKA](https:/
 * Imagenes comprimidas.
 
 [Acceder la versión 2.0](https://rawgit.com/JoanProg/noticias/v2.0/index.html)
+
+### V2.5
+#### SUBIDO: 27/05/2018
+#### MEJORAS:
+
+* Implementación del RSS
+* La noticia 2, tiene un vídeo de youtube.
+
+[Acceder la versión 2.5](https://rawgit.com/JoanProg/noticias/v2.5/index.html)
