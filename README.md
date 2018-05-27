@@ -2,7 +2,7 @@
 #### Hecho por Joan Peña Torres (1º año de DAM-CFGS).
 ### CONCEPTO.
 
-El concepto de está página lo inspire a través en el blog de [XATAKA](https://www.xataka.com/). El titulo de mi blog, lo llame TecnoP0rn (Inspiracion o dar el gusto al lector, sobre tecnología). 
+El concepto de está página lo inspire a través en el blog de XATAKA. El titulo de mi blog, lo llame TecnoP0rn (Inspiracion o dar el gusto al lector, sobre tecnología). 
 
 ### BOCETOS.
 
