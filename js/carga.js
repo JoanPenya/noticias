@@ -29,7 +29,7 @@ function addrow(json) {
         $(".container").append('<div class="row">' +
                 '<div class="col-sm-4">' + '<img src="' + item.imagen + '" \n\
                 width="300" height="300" class="img-thumbnail">'
-                + '<h3 id="titlets">' + item.titulo + "</h3>"
+                + '<h3 class="titlets">' + item.titulo + "</h3>"
                 + '<p>' + item.descripcion + "</p>" +
                 '<p>' + item.dia + "</p>" + "</div>" + "</div>"
                 );

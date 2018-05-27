@@ -1,30 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <title>Raspberry Pi 3 Model B+, análisis: más potencia y mejor WiFi para un miniPC que sigue asombrando</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:site_name" content="TecnoP0rn - Técnologia, móviles, gaming y mucha satisfacción">
+        <meta property="og:url" content="https://www.rawgit.com/">
+        <meta property="og:title" content="TecnoP0rn">
+        <meta property="og:image" content="img/icono.png">
+        <meta property="og:description" content="Página de noticias relacionado con el mundo de la tecnología.">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/d.css">
+        <link rel="stylesheet" media="screen and (min-width: 961px)" href="css/d.css">
+        <link rel="stylesheet" media="screen and (max-width: 960px)" href="css/m.css">        
+        <link rel="icon" type="image/png" href="img/icone.png" />
         <link rel="alternate" type="application/rss+xml" title="TecnoP0rn - Técnologia, móviles, gaming y mucha satisfacción" href="rss/rss.xml">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
+
+        <!-- Fondo de pantalla  de la página-->
         <div id="wall"></div>
+
+        <!-- publicidad movil/ordenador-->
         <div id="pubD1"></div>
-        <div id="PubM"></div>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html"><img src="img/title.png" width="110" height="30"></a>
+        <div id="PubM1"></div>
+
+        <div id="nav-d">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html"><img src="img/title.png" alt="titulo" width="110" height="30"></a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Home
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Móviles</a></li>
+                                <li><a href="#">Tecnología</a></li>
+                                <li><a href="#">Videojuegos</a></li>
+                                <li><a href="#">Informática</a></li>
+                                <li><a href="#">Ciencias</a></li>
+                                <li><a href="#">Otros</a></li>
+                                <li><a href="#">Crítico de la tecnología</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button> 
+                    </form>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            Home
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
+            </nav>
+        </div>
+
+        <div id="nav-m">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" 
+                                data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/title.png" alt="titulo" width="110" height="30"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+
+                        <form class="navbar-form navbar-left" action="/action_page.php">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button> 
+                        </form> 
+
+                        <ul class="nav navbar-nav">
                             <li><a href="#">Móviles</a></li>
                             <li><a href="#">Tecnología</a></li>
                             <li><a href="#">Videojuegos</a></li>
@@ -33,20 +92,14 @@
                             <li><a href="#">Otros</a></li>
                             <li><a href="#">Crítico de la tecnología</a></li>
                         </ul>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
-                <form class="navbar-form navbar-left" action="/action_page.php">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Sign Up</a></li>
+                        </ul>
                     </div>
-                    <button type="submit" class="btn btn-default">Submit</button> 
-                </form>
-            </div>
-        </nav>
+                </div>
+            </nav>
+        </div>
 
         <div id="title">
             <a href="index.html">
@@ -57,7 +110,7 @@
         <div id="noticia">
             <div class="col-sm-12">
                 <div class="caption">
-                    <img src="img/raspberry-pi-3-b.jpg" width="600" height="600"
+                    <img src="img/raspberry-pi-3-b.jpg" alt="RBPi3" width="600" height="600"
                          class="img-thumbnail">
                     <h1 class="text-left">
                         Raspberry Pi 3 Model B+, análisis: más potencia y mejor WiFi para un miniPC que sigue asombrando
@@ -81,7 +134,7 @@
                         Pi 3 Model B+, que como todas sus predecesoras nos maravilla por enseñarnos sus tripas desde el 
                         primer momento. </p>
                 </div>
-                <img src="img/news1-1.jpg" width="600" height="600"
+                <img src="img/news1-1.jpg" width="600" height="600" alt="RBPi3"
                      class="img-thumbnail">
                 <div class="caption">
                     <p class="text-justify">La pequeña placa en la que encontramos los distintos circuitos, chips y 
@@ -94,7 +147,7 @@
                         inalámbrica, tanto para la red WiFi como para Bluetooth. Esa protección tiene además un elemento diferencial: 
                         el célebre logotipo en forma de frambuesa de las Raspberry Pi está grabado en esa placa.  </p>
                 </div>
-                <img src="img/news1-2.jpg" width="600" height="600"
+                <img src="img/news1-2.jpg" width="600" height="600" alt="RBPi3"
                      class="img-thumbnail">
                 <div class="caption">
                     <p class="text-justify">
@@ -185,7 +238,7 @@
                         mejores rendimientos en muchas de las tareas 
                         que le propongamos a este miniPC. </p>
                 </div>
-                <img src="img/news1-3.jpg" width="600" height="600"
+                <img src="img/news1-3.jpg" width="600" height="600" alt="RBPi3"
                      class="img-thumbnail">
                 <div class="caption">
                     <p class="text-justify">

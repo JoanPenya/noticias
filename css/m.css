@@ -1,0 +1,235 @@
+#wall{
+    position: fixed;
+    background-size: 275%;
+    background-image: url("../img/vapo.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#nav-d{
+    display:none;
+}
+
+.CT{
+    font-size: 120%;
+}
+
+.CD{
+    font-size: 100%;
+}
+
+#title{
+    background-size: 150%;
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    height: 25%;
+}
+
+#logo{
+    position: absolute;
+    background-image: url("../img/title.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 37.5%;
+    right: 20%;
+    top: 51%;
+}
+
+#logos{
+    position: absolute;
+    background-image: url("../img/title.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 37.5%;
+    right: 20%;
+    top: 51%;
+}
+
+#myCarousel{
+    position: absolute;
+    top: 25%;
+}
+
+#noticia{
+    position: absolute;
+    top: 30%;
+}
+
+#pubD{
+    display: none;
+
+}
+
+#pubD1{
+    display: none;
+
+}
+
+#PubM{
+    position: absolute;
+    background-size: 100%;
+    background-image: url("../img/publiM.PNG");
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 80%;
+    right: 10%;
+    top: 65%;
+}
+
+#PubM1{
+    position: absolute;
+    background-size: 100%;
+    background-image: url("../img/publiM.PNG");
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 80%;
+    right: 10%;
+    top: 30%;
+}
+
+.container{
+    position: absolute;
+    top: 85%;
+    left: 6%;
+    width: 87%;
+}
+
+.col-sm-4{
+    background-image: url("../img/news.jpg");
+    margin-top: 1.25%;
+    margin-bottom: 1.25%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.img-thumbnail{
+    margin-top: 2.5%;
+}
+
+.table{
+    position:static;
+    width: 20%;
+    font-size: 50%;
+}
+
+#botonRetro{
+    position: absolute;
+    background-size: 100%;
+    background-image: url("../img/load.jpg");
+    background-repeat: no-repeat;
+    font-size: 150%;
+    bottom: -0.5%;
+    left: 22%;
+} 
+
+#personal{
+    position: absolute;
+    background-color: grey;
+    width: 128%;
+    height: 2%;
+    bottom: -2.7%;
+    left: -20%;
+}
+
+#personal1{
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    height: 40%;
+    bottom: -720%;
+}
+
+#personal2{
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    height: 40%;
+    bottom: -350%;
+    
+}
+
+#personal3{
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    height: 40%;
+    bottom: -500%;
+}
+
+#follow{
+    position: absolute;
+    top: 25%;
+    left: 27.5%;
+    font-size: 250%;
+}
+
+#facebook{
+    position: absolute;
+    background-size: 40%;
+    background-image: url("../img/facebook-symbol_318-37686.jpg");
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 20%;
+    left: 35%;
+    top: 70%;
+}
+
+
+#twitter{
+    position: absolute;
+    background-size: 40%;
+    background-image: url("../img/twitter.png");
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 20%;
+    left: 55%;
+    top: 70%;
+}
+
+#logof{
+    position: absolute;
+    background-image: url("../img/title.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 50%;
+    width: 50%;
+    top: 7%;
+    left: 30%;
+}
+
+#noticia{
+    position: absolute;
+    background-image: url("../img/news.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90%;
+    height: 720%;
+    left: 5%;
+    top: 50%;
+}
+
+#noticia2{
+    position: absolute;
+    background-image: url("../img/news.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90%;
+    top: 50%;
+    height: 350%;
+    left: 5%;
+}
+
+#noticia3{
+    position: absolute;
+    background-image: url("../img/news.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90%;
+    top: 30%;
+    height: 525%;
+    left: 5%;
+}
