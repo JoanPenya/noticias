@@ -16,7 +16,7 @@ El concepto de está página lo inspire a través en el blog de XATAKA. El titul
 
 ## VISITAR MI BLOG
 
-[Página de noticias](https://rawgit.com/JoanProg/noticias/v2.5/index.html)
+[Página de noticias](https://rawgit.com/JoanProg/noticias/master/index.html)
 
 ## V1.0
 ### Subido: 21/05/2018
