@@ -43,3 +43,5 @@ El concepto de está página lo inspire a través en el blog de [XATAKA](https:/
 
 * Versión adaptable para dispositivos móviles. 
 * Imagenes comprimidas.
+
+[Acceder la versión 2.0](https://rawgit.com/JoanProg/noticias/v2.0/index.html)
